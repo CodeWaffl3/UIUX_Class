@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Linux Libertine";
+    font-weight: bold;
+    src: url("./fonts/linux_libertine/LinLibertine_R.ttf");
+}
+
+
 * {
     background-color: #54595d;
     color: aliceblue;
@@ -108,6 +115,7 @@ button {
 }
 
 .mainPageDisplay h1 {
+    font-family: "Linux Libertine";
     margin-bottom: 1rem;
 }
 
