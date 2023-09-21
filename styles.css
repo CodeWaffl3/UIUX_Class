@@ -1,0 +1,137 @@
+* {
+    background-color: #54595d;
+    color: aliceblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 52px;
+}
+
+button {
+    background-color: #f8f9fa;
+    color: #202122;
+    border-color: #a2a9b1;
+
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+
+    padding-right: 11px;
+    padding-left: 11px;
+
+    font-size: inherit;
+    font-weight: 700;
+
+
+
+}
+
+.container{
+    display: flex;
+    width: 476px;
+}
+
+.searchBar {
+    min-height: 32px;
+    width: 100%;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.containerLogo a{
+    margin-left: 20px;
+}
+
+.wrapperText {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    MAIN PAGE
+*/
+
+
+    /*
+        CONTENTS PART
+    */
+.pageContent {
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+    margin: 40px 3.25rem;
+    
+}
+
+.tableOfContents{
+    width: 270px;
+}
+
+
+.contentsTitle{
+    /*color: #54595d;*/
+    margin-bottom: 10px;
+}
+.contentsTitle::after{
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: aqua;
+    height: 1px;
+    width: 150px;
+    margin-top: 5px;
+}
+    /*
+        MAIN READING PART
+    */
+.mainPageDisplay {
+    width: 960px;
+
+}
+
+.mainPageDisplay h1 {
+    margin-bottom: 1rem;
+}
+
+.mainPageDisplay h1::after{
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: aqua;
+    height: 1px;
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.table{
+    text-align: center;
+    border: solid #202122;
+    padding: 4px;
+}
+
+.table h2, h4{
+    text-align: center;
+
+    padding: 0.5rem 0.5rem;
+    background-color: #f7e798;
+
+}
