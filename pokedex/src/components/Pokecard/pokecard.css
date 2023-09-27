@@ -1,0 +1,53 @@
+.pokeCard {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, blue, red);
+    list-style: none;
+    float: left;
+}
+
+.pokeCard .whiteCover{
+    background-color: white;
+    height: calc(100% - 26px);
+    width: calc(100% - 25px);
+    border-radius: 6px;
+    margin: 3px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: start;
+
+    transition: background-color 200ms ease;
+
+}
+
+
+.pokeCard .whiteCover:hover {
+    
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.pokeCard .whiteCover:active {
+    
+    background-color: rgb(210, 210, 210);
+}
+
+.pokeCard .whiteCover h1{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+
+.pokeCard .whiteCover h2{
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+
+}
