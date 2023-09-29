@@ -1,5 +1,6 @@
 #pokeDetails{
-    position: relative;
+    position: sticky;
+    top: 0;
     min-width: 600px;
     height: 100vh;
     background-color: rgb(230, 230, 230);
@@ -40,4 +41,11 @@
     border-radius: 10px;
 
     width: fit-content;
+}
+
+#pokeDetails .generalInfo h2{
+    color: white;
+    margin: 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
 }
